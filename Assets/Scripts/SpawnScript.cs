@@ -18,7 +18,7 @@ public class SpawnScript : MonoBehaviour
 
         for(int i = 0; i < balloons.Length; i++) 
         {
-            Instantiate(balloons[i], spawnPoints[i].position, Quaternion.identity);
+            Instantiate(balloons[i], spawnPoints[i].position, spawnPoints[i].rotation);
         }
         StartCoroutine(StartSpawning());
     }
