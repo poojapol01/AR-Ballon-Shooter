@@ -316,6 +316,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4621648825131666667}
   - component: {fileID: -5113849336656683960}
+  - component: {fileID: 5452610668937832854}
   m_Layer: 0
   m_Name: Balloon_Ghost_Yellow
   m_TagString: Untagged
@@ -351,6 +352,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 386e714340d1fb94da52cc1c7ebda277, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &5452610668937832854
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4621648825131666664}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4621648825538182016
 GameObject:
   m_ObjectHideFlags: 0

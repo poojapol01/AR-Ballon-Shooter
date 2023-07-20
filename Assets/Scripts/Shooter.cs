@@ -12,7 +12,7 @@ public class Shooter : MonoBehaviour
 
         if (Physics.Raycast(arCamera.transform.position, arCamera.transform.up, out hit))
         {
-            if (hit.transform.name == "Balloon_Ghost_Pink(Clone)" || hit.transform.name == "Balloon_Ghost_Red(Clone)" || hit.transform.name == "Balloon_Ghost_Yellow(Clone)")
+            if (hit.transform.name == "Balloon_Ghost_Red(Clone)" || hit.transform.name == "Balloon_Ghost_Yellow(Clone)" || hit.transform.name == "Balloon_Ghost_Pink(Clone)")
             {
                 Destroy(hit.transform.gameObject);
             }
