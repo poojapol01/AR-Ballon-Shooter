@@ -10,8 +10,10 @@ public class Shooter : MonoBehaviour
     {
         RaycastHit hit;
 
-        if (Physics.Raycast(arCamera.transform.position, arCamera.transform.up, out hit))
+        Debug.Log("Hitman2");
+        if (Physics.Raycast(arCamera.transform.position, arCamera.transform.forward, out hit))
         {
+            Debug.Log("Hitman1");
             if (hit.transform.name == "Air_Balloon_1(Clone)" || hit.transform.name == "Air_Balloon_2(Clone)" || hit.transform.name == "Air_Balloon_3(Clone)")
             {
                 Destroy(hit.transform.gameObject);
