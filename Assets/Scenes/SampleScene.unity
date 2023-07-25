@@ -676,6 +676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   arCamera: {fileID: 1906238903}
+  smoke: {fileID: 104829970813648393, guid: 1651c9ffd4385844c901684631e36505, type: 3}
 --- !u!4 &1805249582
 Transform:
   m_ObjectHideFlags: 0
